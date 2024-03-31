@@ -1,5 +1,6 @@
 # BUILD
 # use the build platforms matching arch rather than target arch
+ARG BUILDPLATFORM=linux/amd64
 FROM --platform=$BUILDPLATFORM golang:alpine as builder
 WORKDIR /usr/local/app
 ARG TARGETARCH
