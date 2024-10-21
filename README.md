@@ -2,6 +2,10 @@
 
 Wordsmith is the demo project originally shown at DockerCon EU 2017 and 2018.
 
+
+
+
+
 The demo app runs across three containers:
 
 - **[api](api/Dockerfile)** - a Java REST API which serves words read from the database
